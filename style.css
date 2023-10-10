@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.faq-component{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+.faq{
+    margin: 10px;
+}
+
+.qustion{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    
+}
+
+.faq-icon{
+    width: 25px;
+    cursor: pointer;
+}
+.faq-icon2{
+    width: 25px;
+    cursor: pointer;
+
+
+}
+.answer{
+    margin-left: 23px;
+    margin-top: -20px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.hidden-answer{
+    display: none;
+    margin-left: 23px;
+    margin-top: -20px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-style: italic;
+}
+p{
+    cursor: pointer;
+    pointer-events: none;
+}
+.answer, .fade-in {
+    opacity: 0.8;
+  }
+  
+@media screen and (max-width: 470px){
+    p  {
+        font-size: 17px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+    
+  
